@@ -1,0 +1,54 @@
+name: Verify local Codex runner
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "agent/connect-local-codex"
+    paths:
+      - ".github/workflows/local-codex-smoke.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: local-codex-smoke
+  cancel-in-progress: false
+
+jobs:
+  smoke:
+    name: Run Codex with local ChatGPT login
+    runs-on:
+      - self-hosted
+      - macOS
+      - ARM64
+      - codex-local
+      - m5
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Verify runner and Codex login
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(uname -m)" = "arm64"
+          test "$(id -un)" = "lsjglobal"
+          test "$(command -v codex)" = "/opt/homebrew/bin/codex"
+          codex --version
+          codex login status
+
+      - name: Run local Codex smoke test
+        shell: bash
+        run: |
+          set -euo pipefail
+          result="$(
+            codex exec \
+              --ephemeral \
+              --sandbox read-only \
+              "Reply with exactly LOCAL_CODEX_OK and nothing else."
+          )"
+          test "$result" = "LOCAL_CODEX_OK"
+          echo "$result"
