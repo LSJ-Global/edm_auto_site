@@ -1,0 +1,125 @@
+{
+  "image_name": "eDM_AI Summit 2025_LSJ_v1.0_250801",
+  "input": {
+    "source_path": "eDM_AI Summit 2025_LSJ_v1.0_250801.png",
+    "source_extension": ".png",
+    "sha256": "e4b96a76cb64450e668930d28499d987cc0db1637cfd7359314633517db4ce4c",
+    "width": 701,
+    "height": 2808,
+    "mode": "RGB"
+  },
+  "output": {
+    "target_folder": "eDM_AI Summit 2025_LSJ_v1.0_250801",
+    "source_copy": "source.png",
+    "local_html": "eDM_AI Summit 2025_LSJ_v1.0_250801_local.html",
+    "deployment_html": "eDM_AI Summit 2025_LSJ_v1.0_250801.html",
+    "eml": "eDM_AI Summit 2025_LSJ_v1.0_250801.eml",
+    "images_zip": "images.zip",
+    "piece_count": 8,
+    "display_width": 701,
+    "raw_github_base": "https://raw.githubusercontent.com/YunseoLsj/edm-auto-site/main/"
+  },
+  "slices": [
+    {
+      "file": "images/001_hero.png",
+      "top": 0,
+      "bottom_exclusive": 413,
+      "width": 701,
+      "height": 413,
+      "alt": "Oracle AI Summit 2025 행사 소개",
+      "cta_url": null
+    },
+    {
+      "file": "images/002_invitation.png",
+      "top": 413,
+      "bottom_exclusive": 969,
+      "width": 701,
+      "height": 556,
+      "alt": "Oracle AI Summit 2025 초대의 글",
+      "cta_url": null
+    },
+    {
+      "file": "images/003_cta_register_1.png",
+      "top": 969,
+      "bottom_exclusive": 1040,
+      "width": 701,
+      "height": 71,
+      "alt": "행사 등록하기",
+      "cta_url": "https://www.naver.com/"
+    },
+    {
+      "file": "images/004_agenda.png",
+      "top": 1040,
+      "bottom_exclusive": 1530,
+      "width": 701,
+      "height": 490,
+      "alt": "행사 아젠다",
+      "cta_url": null
+    },
+    {
+      "file": "images/005_gift.png",
+      "top": 1530,
+      "bottom_exclusive": 1981,
+      "width": 701,
+      "height": 451,
+      "alt": "참석자 경품 안내",
+      "cta_url": null
+    },
+    {
+      "file": "images/006_location.png",
+      "top": 1981,
+      "bottom_exclusive": 2461,
+      "width": 701,
+      "height": 480,
+      "alt": "코엑스 그랜드 컨퍼런스룸 401호 위치 안내",
+      "cta_url": null
+    },
+    {
+      "file": "images/007_cta_register_2.png",
+      "top": 2461,
+      "bottom_exclusive": 2532,
+      "width": 701,
+      "height": 71,
+      "alt": "행사 등록하기",
+      "cta_url": "https://www.youtube.com/watch?v=cWhmZ6a2io8&t=2195s"
+    },
+    {
+      "file": "images/008_footer.png",
+      "top": 2532,
+      "bottom_exclusive": 2808,
+      "width": 701,
+      "height": 276,
+      "alt": "유라클 문의처",
+      "cta_url": null
+    }
+  ],
+  "cta": {
+    "detected_count": 2,
+    "linked_count": 2,
+    "unlinked_count": 0,
+    "assignments": [
+      {
+        "order": 1,
+        "piece": "images/003_cta_register_1.png",
+        "url": "https://www.naver.com/"
+      },
+      {
+        "order": 2,
+        "piece": "images/007_cta_register_2.png",
+        "url": "https://www.youtube.com/watch?v=cWhmZ6a2io8&t=2195s"
+      }
+    ]
+  },
+  "validation": {
+    "source_sha256_match": true,
+    "pieces_exist_and_numbering_contiguous": true,
+    "reconstructed_dimensions_match": true,
+    "reconstructed_pixels_match": true,
+    "local_html_image_paths_exist": true,
+    "deployment_html_raw_urls_valid": true,
+    "cta_assignment_matches_analysis": true,
+    "html_has_no_absolute_local_file_path_file_uri_or_base64_image": true,
+    "eml_reparse_success_html_and_x_unsent_present": true
+  },
+  "processed_at": "2026-07-30T09:11:34.723282Z"
+}

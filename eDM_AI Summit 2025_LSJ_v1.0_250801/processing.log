@@ -1,0 +1,15 @@
+processed_at=2026-07-30T09:11:34.723282Z
+source=eDM_AI Summit 2025_LSJ_v1.0_250801.png
+target=eDM_AI Summit 2025_LSJ_v1.0_250801
+input_dimensions=701x2808
+visual_analysis=상단 히어로, 초대문, 아젠다, 경품, 위치, 푸터와 빨간색 행사 등록 CTA 2개를 식별함
+split_rationale=배경 전환과 넓은 흰 여백을 자연 경계로 사용하고 CTA는 독립 조각으로 분리함
+cta_safety_margin=각 버튼의 감지 외곽 위아래 8px 포함; 인접 조각과 중복 없음
+cta_1_url=https://www.naver.com/
+cta_2_url=https://www.youtube.com/watch?v=cWhmZ6a2io8&t=2195s
+source_sha256=e4b96a76cb64450e668930d28499d987cc0db1637cfd7359314633517db4ce4c
+source_copy_sha256=e4b96a76cb64450e668930d28499d987cc0db1637cfd7359314633517db4ce4c
+piece_count=8
+piece_boundaries=001_hero.png:0-412,002_invitation.png:413-968,003_cta_register_1.png:969-1039,004_agenda.png:1040-1529,005_gift.png:1530-1980,006_location.png:1981-2460,007_cta_register_2.png:2461-2531,008_footer.png:2532-2807
+validation={"cta_assignment_matches_analysis": true, "deployment_html_raw_urls_valid": true, "eml_reparse_success_html_and_x_unsent_present": true, "html_has_no_absolute_local_file_path_file_uri_or_base64_image": true, "local_html_image_paths_exist": true, "pieces_exist_and_numbering_contiguous": true, "reconstructed_dimensions_match": true, "reconstructed_pixels_match": true, "source_sha256_match": true}
+result=PASS
