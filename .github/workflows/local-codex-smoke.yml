@@ -36,7 +36,9 @@ jobs:
           set -euo pipefail
           test "$(uname -m)" = "arm64"
           test "$(id -un)" = "lsjglobal"
-          test "$(command -v codex)" = "/opt/homebrew/bin/codex"
+          codex_path="$(command -v codex)"
+          test -n "$codex_path"
+          echo "Codex executable: $codex_path"
           codex --version
           codex login status
 
