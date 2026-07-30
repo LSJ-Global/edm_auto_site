@@ -171,6 +171,8 @@ def main() -> int:
         "--ephemeral",
         "--sandbox",
         "workspace-write",
+        "--add-dir",
+        str(repo / ".git"),
         "-c",
         'approval_policy="never"',
         "-c",
