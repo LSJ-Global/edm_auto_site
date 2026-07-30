@@ -1,0 +1,27 @@
+[2026-07-30T08:26:03.100582Z] 처리 시작: e2e-web-20260730082334755.png
+[판단] 원본 1400x2643 RGB PNG. 짙은 남색 밤하늘/행사 본문/부산 야경/문의처로 구성.
+[판단] CTA 1개(참석하기)를 식별. 버튼 실제 수직 범위 y=1740..1885 주변에 상하 6px 안전 여백을 적용해 y=1734..1892로 분리.
+[링크] landing_urls[0] -> CTA 1: https://www.naver.com/
+[분할] 001_invitation_header.png: y=0..80, 002_hero_title.png: y=81..990, 003_event_intro.png: y=991..1475, 004_program_details.png: y=1476..1733, 005_cta_attend.png: y=1734..1891, 006_cityscape.png: y=1892..2338, 007_contact_footer.png: y=2339..2642
+[HTML] 표시 폭 700px, table 기반, 인라인 CSS. 로컬 상대 경로 및 origin에서 계산한 main raw URL 사용.
+[EML] EmailMessage(policy.SMTP), HTML 단일 파트, quoted-printable, X-Unsent: 1. From/To는 Outlook 초안에서 교체 가능한 명시적 placeholder 주소.
+[ZIP] images/ 조각 7개를 표시 순서대로 images.zip에 저장.
+[검증] source_copy_sha256_matches: PASS
+[검증] piece_files_exist: PASS
+[검증] piece_numbering_continuous: PASS
+[검증] reconstructed_dimensions_match: PASS
+[검증] reconstructed_pixels_match: PASS
+[검증] local_html_image_paths_exist: PASS
+[검증] deployment_html_raw_urls_correct: PASS
+[검증] cta_link_count_matches: PASS
+[검증] cta_url_assignment_matches: PASS
+[검증] html_has_no_absolute_local_or_embedded_images: PASS
+[검증] eml_reparse_success: PASS
+[검증] eml_html_body_present: PASS
+[검증] eml_x_unsent_is_1: PASS
+[검증] eml_required_headers_present: PASS
+[검증] eml_html_uses_deployment_urls: PASS
+[검증] eml_html_quoted_printable: PASS
+[검증] images_zip_contains_all_pieces: PASS
+[검증] summary_json_valid: PASS
+[결과] 전체 검증: PASS
