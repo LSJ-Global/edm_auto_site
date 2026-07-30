@@ -2,11 +2,6 @@ name: Verify local Codex runner
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - "agent/connect-local-codex"
-    paths:
-      - ".github/workflows/local-codex-smoke.yml"
 
 permissions:
   contents: read
