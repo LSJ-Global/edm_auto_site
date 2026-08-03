@@ -1,0 +1,10 @@
+[2026-08-03T00:50:35.719146Z] 처리 시작 및 완료
+- 입력: Q3 F5_2604222.png
+- 대상: Q3 F5_2604222
+- 원본: 1404x5860, RGBA, SHA-256 f050af887535f19c4ebd6a7cf95f69acf3281f745b1d50846b8b3787ce74cfbd
+- 판단: 상단 헤더, 행사 히어로, 소개, CTA, 여백, 프로그램, 혜택/안내, 푸터의 자연 경계로 8개 분할
+- CTA: 참가 신청하기 1개, 실제 경계 (323,1871)-(1079,2039); 상하 6px 안전 여백을 포함한 y=1865..2045 독립 조각
+- URL 배정: landing_urls 첫 번째 URL을 images/004_apply_cta.png에 배정 (https://www.youtube.com/watch?v=bmxICIwNDKg&list=RDbmxICIwNDKg&start_radio=1)
+- HTML: 700px 표시 폭, table 기반 인라인 CSS; 로컬 상대 경로 및 origin에서 계산한 main raw URL 사용
+- EML: EmailMessage/policy.SMTP, X-Unsent: 1, quoted-printable HTML; 재파싱 성공
+- 검증: 원본 사본 SHA-256, 조각 존재/번호/전체 픽셀 재합성, HTML 경로/URL/CTA, EML, ZIP, summary JSON 모두 통과
