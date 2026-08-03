@@ -1,0 +1,12 @@
+[2026-08-03T00:10:31.521446Z] eDM asset generation started
+Input: Q3 F5_260422.png (1404x5860, RGBA, SHA-256 f050af887535f19c4ebd6a7cf95f69acf3281f745b1d50846b8b3787ce74cfbd)
+Duplicate check: image_name not present in processed.json; generation required
+URL selection: filename_url absent; first landing_urls value selected and validated as HTTPS
+Visual analysis: natural section boundaries at y=183, 1320, 2160, 4162, and 5553
+CTA analysis: one yellow '참가 신청하기' button detected at x=323..1078, y=1871..2038
+CTA slice: y=1865..2044, preserving the full source width and 6px vertical safety margins
+Segmentation: eight contiguous, non-overlapping full-width PNG slices cover y=0..5859
+HTML: table-based email layout at 700px display width; CTA link applied only to 004_apply_cta.png
+Deployment raw image base: https://raw.githubusercontent.com/YunseoLsj/edm-auto-site/main/Q3%20F5_260422/images
+EML: EmailMessage with SMTP policy, X-Unsent: 1, UTF-8 HTML, quoted-printable transfer encoding
+Validation: source hash match; sequential slices; exact dimensions and pixel reconstruction; HTML paths/URLs/CTA; EML parse/body/headers; ZIP contents all passed
