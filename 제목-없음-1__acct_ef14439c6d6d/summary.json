@@ -1,0 +1,150 @@
+{
+  "image_name": "제목-없음-1__acct_ef14439c6d6d",
+  "source": {
+    "input_path": "제목-없음-1__acct_ef14439c6d6d.png",
+    "preserved_copy": "제목-없음-1__acct_ef14439c6d6d/source.png",
+    "extension": ".png",
+    "sha256": "47a9c57bf0e9d847aff2181e39e347a50b09cb438e1217b4e3afa2d3c30165df",
+    "width": 391,
+    "height": 783,
+    "mode": "RGB",
+    "format": "PNG"
+  },
+  "output": {
+    "target_folder": "제목-없음-1__acct_ef14439c6d6d",
+    "display_width": 391,
+    "slice_count": 7,
+    "files": [
+      "source.png",
+      "images/",
+      "제목-없음-1__acct_ef14439c6d6d_local.html",
+      "제목-없음-1__acct_ef14439c6d6d.html",
+      "제목-없음-1__acct_ef14439c6d6d.eml",
+      "summary.json",
+      "processing.log",
+      "images.zip"
+    ]
+  },
+  "slices": [
+    {
+      "file": "images/001_header.png",
+      "y_start": 0,
+      "y_end_exclusive": 168,
+      "width": 391,
+      "height": 168,
+      "linked": false,
+      "cta_url": null,
+      "description": "가족회사(AICE) 프로그램 제목과 소개"
+    },
+    {
+      "file": "images/002_program_overview.png",
+      "y_start": 168,
+      "y_end_exclusive": 376,
+      "width": 391,
+      "height": 208,
+      "linked": false,
+      "cta_url": null,
+      "description": "기업·대학 교류 구조와 프로그램 개요"
+    },
+    {
+      "file": "images/003_company_benefits.png",
+      "y_start": 376,
+      "y_end_exclusive": 555,
+      "width": 391,
+      "height": 179,
+      "linked": false,
+      "cta_url": null,
+      "description": "가족회사 기업혜택 안내"
+    },
+    {
+      "file": "images/004_notice.png",
+      "y_start": 555,
+      "y_end_exclusive": 603,
+      "width": 391,
+      "height": 48,
+      "linked": false,
+      "cta_url": null,
+      "description": "가족회사 안내 문구와 CTA 상단 여백"
+    },
+    {
+      "file": "images/005_apply_cta.png",
+      "y_start": 603,
+      "y_end_exclusive": 646,
+      "width": 391,
+      "height": 43,
+      "linked": true,
+      "cta_url": "https://www.naver.com/",
+      "description": "가입신청"
+    },
+    {
+      "file": "images/006_contact.png",
+      "y_start": 646,
+      "y_end_exclusive": 708,
+      "width": 391,
+      "height": 62,
+      "linked": false,
+      "cta_url": null,
+      "description": "숭실대학교 산학협력단 문의처"
+    },
+    {
+      "file": "images/007_footer.png",
+      "y_start": 708,
+      "y_end_exclusive": 783,
+      "width": 391,
+      "height": 75,
+      "linked": false,
+      "cta_url": null,
+      "description": "숭실대학교 로고 푸터"
+    }
+  ],
+  "cta": {
+    "detected_count": 1,
+    "detected_bounds": [
+      {
+        "x_start": 123,
+        "y_start": 607,
+        "x_end_exclusive": 260,
+        "y_end_exclusive": 642
+      }
+    ],
+    "slice_safe_margin_px": {
+      "top": 4,
+      "bottom": 4
+    },
+    "assigned_urls": [
+      {
+        "slice": "images/005_apply_cta.png",
+        "url": "https://www.naver.com/"
+      }
+    ],
+    "provided_urls": [
+      "https://www.naver.com/"
+    ],
+    "url_source": "landing_urls[0]",
+    "unlinked_cta_count": 0,
+    "unused_urls": []
+  },
+  "deployment": {
+    "branch": "main",
+    "origin": "https://github.com/YunseoLsj/edm-auto-site",
+    "raw_image_base_url": "https://raw.githubusercontent.com/YunseoLsj/edm-auto-site/main/%EC%A0%9C%EB%AA%A9-%EC%97%86%EC%9D%8C-1__acct_ef14439c6d6d/images"
+  },
+  "validation": {
+    "source_copy_sha256_match": true,
+    "slice_files_exist": true,
+    "slice_numbering_continuous": true,
+    "reconstructed_dimensions_match": true,
+    "reconstructed_pixels_identical": true,
+    "local_html_image_paths_exist": true,
+    "deployment_html_raw_urls_valid": true,
+    "cta_link_assignment_matches_analysis": true,
+    "html_has_no_local_absolute_file_or_base64_urls": true,
+    "eml_reparse_success": true,
+    "eml_html_body_matches_deployment_html": true,
+    "eml_x_unsent_is_1": true,
+    "eml_content_transfer_encoding_quoted_printable": true,
+    "images_zip_contains_all_slices": true,
+    "summary_json_valid": true
+  },
+  "created_at": "2026-08-03T01:41:14.661544Z"
+}
