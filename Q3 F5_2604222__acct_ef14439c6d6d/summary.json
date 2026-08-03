@@ -1,0 +1,76 @@
+{
+  "image_name": "Q3 F5_2604222__acct_ef14439c6d6d",
+  "source_image": "Q3 F5_2604222__acct_ef14439c6d6d.png",
+  "source_copy": "source.png",
+  "source_sha256": "f050af887535f19c4ebd6a7cf95f69acf3281f745b1d50846b8b3787ce74cfbd",
+  "source_format": "PNG",
+  "source_mode": "RGBA",
+  "source_dimensions": {
+    "width": 1404,
+    "height": 5860
+  },
+  "display_width": 702,
+  "target_branch": "main",
+  "raw_base_url": "https://raw.githubusercontent.com/YunseoLsj/edm-auto-site/main/Q3%20F5_2604222__acct_ef14439c6d6d/images/",
+  "analysis": {
+    "dominant_section_colors": ["#000000", "#ffffff", "#f0f0f0"],
+    "cta_count": 1,
+    "cta_pixel_bbox": [323, 1871, 1079, 2039],
+    "cta_safe_slice": [0, 1863, 1404, 2047],
+    "cta_safe_margin_vertical_px": 8,
+    "split_boundaries_y": [0, 1320, 1863, 2047, 2160, 4162, 5553, 5860],
+    "split_rationale": "Hero and major sections use full-width background transitions; the CTA uses its own full-width slice with 8px vertical safety margins."
+  },
+  "cta_links": [
+    {
+      "order": 1,
+      "label": "참가 신청하기",
+      "image": "images/003_cta_apply.png",
+      "url": "https://www.naver.com/",
+      "url_source": "landing_urls[0]"
+    }
+  ],
+  "unassigned_ctas": [],
+  "pieces": [
+    {"file": "images/001_header_hero.png", "y_start": 0, "y_end": 1320, "width": 1404, "height": 1320, "linked": false},
+    {"file": "images/002_introduction.png", "y_start": 1320, "y_end": 1863, "width": 1404, "height": 543, "linked": false},
+    {"file": "images/003_cta_apply.png", "y_start": 1863, "y_end": 2047, "width": 1404, "height": 184, "linked": true},
+    {"file": "images/004_intro_spacing.png", "y_start": 2047, "y_end": 2160, "width": 1404, "height": 113, "linked": false},
+    {"file": "images/005_program.png", "y_start": 2160, "y_end": 4162, "width": 1404, "height": 2002, "linked": false},
+    {"file": "images/006_benefits_and_guide.png", "y_start": 4162, "y_end": 5553, "width": 1404, "height": 1391, "linked": false},
+    {"file": "images/007_contact_footer.png", "y_start": 5553, "y_end": 5860, "width": 1404, "height": 307, "linked": false}
+  ],
+  "artifacts": [
+    "source.png",
+    "images/001_header_hero.png",
+    "images/002_introduction.png",
+    "images/003_cta_apply.png",
+    "images/004_intro_spacing.png",
+    "images/005_program.png",
+    "images/006_benefits_and_guide.png",
+    "images/007_contact_footer.png",
+    "Q3 F5_2604222__acct_ef14439c6d6d_local.html",
+    "Q3 F5_2604222__acct_ef14439c6d6d.html",
+    "Q3 F5_2604222__acct_ef14439c6d6d.eml",
+    "processing.log",
+    "images.zip",
+    "summary.json"
+  ],
+  "processed_at": "2026-08-03T05:04:44Z",
+  "validation": {
+    "source_copy_sha256_matches": true,
+    "piece_files_exist": true,
+    "piece_numbering_contiguous": true,
+    "reconstructed_dimensions_match": true,
+    "reconstructed_pixels_match": true,
+    "local_html_image_paths_exist": true,
+    "deployment_raw_urls_valid": true,
+    "cta_links_match_analysis": true,
+    "html_has_no_local_absolute_file_base64": true,
+    "eml_reparse_success": true,
+    "eml_has_html_body": true,
+    "eml_x_unsent_is_1": true,
+    "summary_json_valid": true,
+    "all_passed": true
+  }
+}

@@ -1,0 +1,11 @@
+[2026-08-03T05:04:44Z] Started eDM generation for Q3 F5_2604222__acct_ef14439c6d6d.
+[2026-08-03T05:04:44Z] Preconditions passed: branch main; worktree clean; origin/main fetched and rebased; repository already current.
+[2026-08-03T05:04:44Z] Input limited to Q3 F5_2604222__acct_ef14439c6d6d.png; source is a tracked repository file.
+[2026-08-03T05:04:44Z] Inspected source with Pillow and visually: PNG, RGBA, 1404x5860; section colors black, white, and #f0f0f0.
+[2026-08-03T05:04:44Z] Identified one yellow CTA labeled 참가 신청하기 at pixel bbox (323,1871)-(1079,2039).
+[2026-08-03T05:04:44Z] Assigned landing_urls[0] https://www.naver.com/ to the CTA; no CTA is unassigned.
+[2026-08-03T05:04:44Z] Chose full-width split boundaries 0,1320,1863,2047,2160,4162,5553,5860. Major boundaries follow background transitions. CTA slice includes 8px top/bottom safety margin and no duplicate pixels.
+[2026-08-03T05:04:44Z] Set email display width to 702px, exactly 50% of source width and within the requested 600-750px range.
+[2026-08-03T05:04:44Z] Derived GitHub raw image base from origin https://github.com/YunseoLsj/edm-auto-site and target branch main; encoded the folder space as %20.
+[2026-08-03T05:04:44Z] Generated seven PNG pieces, source copy, local/deployment HTML, EML, summary.json, processing.log, and images.zip.
+[2026-08-03T05:04:44Z] Validation passed: source SHA-256 match; continuous piece numbering; exact pixel reconstruction; local and raw HTML path checks; CTA link mapping; prohibited HTML source scan; EML reparse and headers/body; valid summary JSON.
