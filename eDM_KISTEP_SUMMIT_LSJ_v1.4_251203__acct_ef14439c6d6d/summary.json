@@ -1,0 +1,223 @@
+{
+  "image_name": "eDM_KISTEP_SUMMIT_LSJ_v1.4_251203__acct_ef14439c6d6d",
+  "input": {
+    "source_path": "eDM_KISTEP_SUMMIT_LSJ_v1.4_251203__acct_ef14439c6d6d.png",
+    "source_extension": ".png",
+    "sha256": "1f51f93ab8928fa28ce881cbd53f9d180e8f231c101e5784a1a8a06e0e11f5e8",
+    "width": 600,
+    "height": 2493,
+    "mode": "RGBA"
+  },
+  "output_folder": "eDM_KISTEP_SUMMIT_LSJ_v1.4_251203__acct_ef14439c6d6d",
+  "display_width": 600,
+  "color_characteristics": {
+    "mode": "RGBA",
+    "top_row_average_rgb": [
+      17,
+      38,
+      86
+    ],
+    "bottom_row_average_rgb": [
+      2,
+      18,
+      51
+    ],
+    "visual_summary": "상단 남색·녹색·청록 그라데이션, 중단 흰색 정보 영역, 하단 남색 푸터"
+  },
+  "pieces": [
+    {
+      "file": "images/001_hero.png",
+      "y_start": 0,
+      "y_end": 766,
+      "width": 600,
+      "height": 766,
+      "cta_index": null
+    },
+    {
+      "file": "images/002_organizers_and_partners.png",
+      "y_start": 766,
+      "y_end": 847,
+      "width": 600,
+      "height": 81,
+      "cta_index": null
+    },
+    {
+      "file": "images/003_intro_spacing.png",
+      "y_start": 847,
+      "y_end": 861,
+      "width": 600,
+      "height": 14,
+      "cta_index": null
+    },
+    {
+      "file": "images/004_cta_advance_registration.png",
+      "y_start": 861,
+      "y_end": 931,
+      "width": 600,
+      "height": 70,
+      "cta_index": 0
+    },
+    {
+      "file": "images/005_program_heading.png",
+      "y_start": 931,
+      "y_end": 1014,
+      "width": 600,
+      "height": 83,
+      "cta_index": null
+    },
+    {
+      "file": "images/006_program.png",
+      "y_start": 1014,
+      "y_end": 1793,
+      "width": 600,
+      "height": 779,
+      "cta_index": null
+    },
+    {
+      "file": "images/007_directions_heading.png",
+      "y_start": 1793,
+      "y_end": 1908,
+      "width": 600,
+      "height": 115,
+      "cta_index": null
+    },
+    {
+      "file": "images/008_directions_map_top.png",
+      "y_start": 1908,
+      "y_end": 2012,
+      "width": 600,
+      "height": 104,
+      "cta_index": null
+    },
+    {
+      "file": "images/009_cta_transportation.png",
+      "y_start": 2012,
+      "y_end": 2057,
+      "width": 600,
+      "height": 45,
+      "cta_index": 1
+    },
+    {
+      "file": "images/010_directions_map_bottom.png",
+      "y_start": 2057,
+      "y_end": 2078,
+      "width": 600,
+      "height": 21,
+      "cta_index": null
+    },
+    {
+      "file": "images/011_directions_spacing.png",
+      "y_start": 2078,
+      "y_end": 2105,
+      "width": 600,
+      "height": 27,
+      "cta_index": null
+    },
+    {
+      "file": "images/012_banner_top.png",
+      "y_start": 2105,
+      "y_end": 2172,
+      "width": 600,
+      "height": 67,
+      "cta_index": null
+    },
+    {
+      "file": "images/013_cta_banner_registration.png",
+      "y_start": 2172,
+      "y_end": 2212,
+      "width": 600,
+      "height": 40,
+      "cta_index": 2
+    },
+    {
+      "file": "images/014_banner_bottom.png",
+      "y_start": 2212,
+      "y_end": 2222,
+      "width": 600,
+      "height": 10,
+      "cta_index": null
+    },
+    {
+      "file": "images/015_partner_logos.png",
+      "y_start": 2222,
+      "y_end": 2419,
+      "width": 600,
+      "height": 197,
+      "cta_index": null
+    },
+    {
+      "file": "images/016_footer.png",
+      "y_start": 2419,
+      "y_end": 2493,
+      "width": 600,
+      "height": 74,
+      "cta_index": null
+    }
+  ],
+  "cta_count": 3,
+  "linked_cta_count": 1,
+  "cta_assignments": [
+    {
+      "order": 1,
+      "label": "사전등록하기",
+      "piece": "images/004_cta_advance_registration.png",
+      "url": "https://www.naver.com/",
+      "linked": true
+    },
+    {
+      "order": 2,
+      "label": "교통정보 보기",
+      "piece": "images/009_cta_transportation.png",
+      "url": null,
+      "linked": false
+    },
+    {
+      "order": 3,
+      "label": "사전등록하기",
+      "piece": "images/013_cta_banner_registration.png",
+      "url": null,
+      "linked": false
+    }
+  ],
+  "unassigned_ctas": [
+    {
+      "order": 2,
+      "label": "교통정보 보기",
+      "piece": "images/009_cta_transportation.png",
+      "url": null,
+      "linked": false
+    },
+    {
+      "order": 3,
+      "label": "사전등록하기",
+      "piece": "images/013_cta_banner_registration.png",
+      "url": null,
+      "linked": false
+    }
+  ],
+  "raw_github_base": "https://raw.githubusercontent.com/YunseoLsj/edm-auto-site/main/eDM_KISTEP_SUMMIT_LSJ_v1.4_251203__acct_ef14439c6d6d/images",
+  "artifacts": [
+    "source.png",
+    "images/",
+    "eDM_KISTEP_SUMMIT_LSJ_v1.4_251203__acct_ef14439c6d6d_local.html",
+    "eDM_KISTEP_SUMMIT_LSJ_v1.4_251203__acct_ef14439c6d6d.html",
+    "eDM_KISTEP_SUMMIT_LSJ_v1.4_251203__acct_ef14439c6d6d.eml",
+    "summary.json",
+    "processing.log",
+    "images.zip"
+  ],
+  "validation": {
+    "source_copy_sha256_matches": true,
+    "piece_files_exist": true,
+    "piece_numbering_sequential": true,
+    "reconstructed_dimensions_match": true,
+    "reconstructed_pixels_identical": true,
+    "local_html_image_paths_exist": true,
+    "deployed_html_raw_urls_valid": true,
+    "cta_assignment_matches_analysis": true,
+    "html_has_no_absolute_local_file_base64_sources": true,
+    "eml_reparse_valid": true,
+    "summary_json_valid": true
+  },
+  "processed_at": "2026-08-03T04:58:18Z"
+}
