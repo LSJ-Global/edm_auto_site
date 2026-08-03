@@ -1,0 +1,15 @@
+[2026-08-03T04:30:55Z] 입력: test_cam__acct_43d021786db1.png
+[2026-08-03T04:30:55Z] Git 사전 점검: branch=main, worktree=clean
+[2026-08-03T04:30:55Z] 원격 최신화: git fetch origin main 및 git pull --rebase origin main 성공
+[2026-08-03T04:30:55Z] 원본 분석: PNG, RGB, 1254x1254, SHA-256=e32ee85ebcb64a302971b4874ba0ff7d7cd1c2b6b95308195ea6f3d77da3b157
+[2026-08-03T04:30:55Z] 시각 분석: 흰 배경 위 검은색 웹캠 단일 제품 사진. CTA 버튼 없음.
+[2026-08-03T04:30:55Z] URL 분석: filename_url 없음, landing_urls 비어 있음, 동일 basename .txt 없음. CTA 0개이므로 미배정 URL 없음.
+[2026-08-03T04:30:55Z] 분할 판단: 제품이 세로로 이어지고 자연스러운 내부 섹션 경계가 없어 임의 절단하지 않고 001_full.png 단일 조각으로 보존.
+[2026-08-03T04:30:55Z] HTML: 원본 비율 유지, 표시 폭 700px, table 기반 및 인라인 CSS 적용. CTA 링크 없음.
+[2026-08-03T04:30:55Z] 배포 URL: origin에서 YunseoLsj/edm-auto-site를 도출하고 main raw GitHub 경로 사용.
+[2026-08-03T04:30:55Z] EML: EmailMessage/policy.SMTP, X-Unsent: 1, HTML quoted-printable 직렬화.
+[2026-08-03T04:30:55Z] 검증 예정: 원본 사본 해시, 조각 연속성·재합성, HTML 경로·URL·안전성, CTA 배정, EML 재파싱, summary JSON.
+[2026-08-03T04:30:55Z] 검증 완료: source SHA-256 일치, 조각 번호 연속, 재합성 크기·픽셀 완전 일치.
+[2026-08-03T04:30:55Z] 검증 완료: 로컬 이미지 경로 존재, 배포 raw URL 정확, CTA 0개 배정 일치, 위험한 로컬/base64 참조 없음.
+[2026-08-03T04:30:55Z] 검증 완료: EML 재파싱 성공, 필수 헤더와 X-Unsent: 1 존재, HTML 파트 quoted-printable, SMTP CRLF 정규화 후 배포 HTML과 동일.
+[2026-08-03T04:30:55Z] 검증 완료: images.zip 정상, summary.json 유효. 전체 필수 검증 통과.

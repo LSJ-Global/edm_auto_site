@@ -71,6 +71,12 @@
       "target_folder": "제목-없음-1__acct_ef14439c6d6d",
       "processed_at": "2026-08-03T01:41:14.661544Z",
       "source_path": "제목-없음-1__acct_ef14439c6d6d.png"
+    },
+    {
+      "image_name": "test_cam__acct_43d021786db1",
+      "target_folder": "test_cam__acct_43d021786db1",
+      "processed_at": "2026-08-03T04:30:55Z",
+      "source_path": "test_cam__acct_43d021786db1.png"
     }
   ]
 }
