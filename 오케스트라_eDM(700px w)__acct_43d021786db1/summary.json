@@ -1,0 +1,182 @@
+{
+  "image_name": "오케스트라_eDM(700px w)__acct_43d021786db1",
+  "input": {
+    "source_path": "오케스트라_eDM(700px w)__acct_43d021786db1.png",
+    "source_extension": ".png",
+    "sha256": "bd6b66ec49ee6d6f8e93637b2a7597e487974b4bdb6fd3b8bcbc54c44ff20ab5",
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1459,
+    "height": 2900
+  },
+  "output": {
+    "target_folder": "오케스트라_eDM(700px w)__acct_43d021786db1",
+    "source_copy": "source.png",
+    "local_html": "오케스트라_eDM(700px w)__acct_43d021786db1_local.html",
+    "deployment_html": "오케스트라_eDM(700px w)__acct_43d021786db1.html",
+    "eml": "오케스트라_eDM(700px w)__acct_43d021786db1.eml",
+    "images_zip": "images.zip",
+    "display_width": 750,
+    "slice_count": 7,
+    "slices": [
+      {
+        "file": "images/001_hero.png",
+        "top": 0,
+        "bottom_exclusive": 821,
+        "width": 1459,
+        "height": 821,
+        "alt": "OKESTRO Solution Day 2026 행사 안내",
+        "is_cta": false,
+        "cta_url": null
+      },
+      {
+        "file": "images/002_registration_intro.png",
+        "top": 821,
+        "bottom_exclusive": 920,
+        "width": 1459,
+        "height": 99,
+        "alt": "사전 등록 버튼 위 여백",
+        "is_cta": false,
+        "cta_url": null
+      },
+      {
+        "file": "images/003_cta_register.png",
+        "top": 920,
+        "bottom_exclusive": 1047,
+        "width": 1459,
+        "height": 127,
+        "alt": "사전 등록하기",
+        "is_cta": true,
+        "cta_url": "https://www.naver.com/"
+      },
+      {
+        "file": "images/004_program.png",
+        "top": 1047,
+        "bottom_exclusive": 2080,
+        "width": 1459,
+        "height": 1033,
+        "alt": "OKESTRO Solution Day 2026 프로그램",
+        "is_cta": false,
+        "cta_url": null
+      },
+      {
+        "file": "images/005_location.png",
+        "top": 2080,
+        "bottom_exclusive": 2429,
+        "width": 1459,
+        "height": 349,
+        "alt": "코엑스 3층 오디토리움 오시는 길",
+        "is_cta": false,
+        "cta_url": null
+      },
+      {
+        "file": "images/006_cta_transport.png",
+        "top": 2429,
+        "bottom_exclusive": 2525,
+        "width": 1459,
+        "height": 96,
+        "alt": "교통정보 보기",
+        "is_cta": true,
+        "cta_url": "https://www.daum.net/"
+      },
+      {
+        "file": "images/007_location_footer.png",
+        "top": 2525,
+        "bottom_exclusive": 2900,
+        "width": 1459,
+        "height": 375,
+        "alt": "코엑스 위치 안내와 OKESTRO 로고",
+        "is_cta": false,
+        "cta_url": null
+      }
+    ]
+  },
+  "analysis": {
+    "dominant_backgrounds": [
+      "#000000",
+      "#ffffff"
+    ],
+    "natural_boundaries": [
+      821,
+      1047,
+      2080,
+      2525,
+      2900
+    ],
+    "cta_button_bboxes_inclusive": [
+      {
+        "label": "사전 등록하기",
+        "left": 531,
+        "top": 928,
+        "right": 926,
+        "bottom": 1038
+      },
+      {
+        "label": "교통정보 보기",
+        "left": 931,
+        "top": 2437,
+        "right": 1287,
+        "bottom": 2516
+      }
+    ],
+    "cta_safe_slices": [
+      {
+        "file": "images/003_cta_register.png",
+        "top": 920,
+        "bottom_exclusive": 1047,
+        "safety_top": 8,
+        "safety_bottom": 8
+      },
+      {
+        "file": "images/006_cta_transport.png",
+        "top": 2429,
+        "bottom_exclusive": 2525,
+        "safety_top": 8,
+        "safety_bottom": 8
+      }
+    ]
+  },
+  "cta": {
+    "detected_count": 2,
+    "linked_count": 2,
+    "unlinked_count": 0,
+    "assignments": [
+      {
+        "order": 1,
+        "piece": "images/003_cta_register.png",
+        "label": "사전 등록하기",
+        "url": "https://www.naver.com/",
+        "url_source": "landing_urls[0]"
+      },
+      {
+        "order": 2,
+        "piece": "images/006_cta_transport.png",
+        "label": "교통정보 보기",
+        "url": "https://www.daum.net/",
+        "url_source": "landing_urls[1]"
+      }
+    ]
+  },
+  "github": {
+    "origin": "https://github.com/YunseoLsj/edm-auto-site",
+    "owner": "YunseoLsj",
+    "repository": "edm-auto-site",
+    "branch": "main",
+    "base_commit": "bf5fe1887a14960aa3a54f1a8b174618511deb98",
+    "raw_base": "https://raw.githubusercontent.com/YunseoLsj/edm-auto-site/main/"
+  },
+  "processed_at": "2026-08-04T05:52:04Z",
+  "validation": {
+    "source_copy_sha256_matches": true,
+    "slice_files_exist_and_numbering_continuous": true,
+    "reconstruction_dimensions_match": true,
+    "reconstruction_pixels_match": true,
+    "local_html_image_paths_exist": true,
+    "deployment_html_raw_urls_valid": true,
+    "cta_link_assignment_matches_analysis": true,
+    "html_has_no_absolute_local_file_path_file_url_or_base64_image": true,
+    "eml_reparse_headers_html_and_quoted_printable_valid": true,
+    "images_zip_members_match": true,
+    "summary_json_valid": true
+  }
+}
