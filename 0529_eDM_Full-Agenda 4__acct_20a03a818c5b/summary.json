@@ -1,0 +1,156 @@
+{
+  "image_name": "0529_eDM_Full-Agenda 4__acct_20a03a818c5b",
+  "source": {
+    "input_path": "0529_eDM_Full-Agenda 4__acct_20a03a818c5b.png",
+    "preserved_copy": "0529_eDM_Full-Agenda 4__acct_20a03a818c5b/source.png",
+    "extension": ".png",
+    "format": "PNG",
+    "sha256": "617b93c25cfe8e58a9ee97e0ab1851346db841db6502285cdecaedb78e79a023",
+    "width": 700,
+    "height": 3335,
+    "mode": "RGBA"
+  },
+  "output": {
+    "target_folder": "0529_eDM_Full-Agenda 4__acct_20a03a818c5b",
+    "display_width": 700,
+    "slice_count": 7,
+    "files": [
+      "source.png",
+      "images/",
+      "0529_eDM_Full-Agenda 4__acct_20a03a818c5b_local.html",
+      "0529_eDM_Full-Agenda 4__acct_20a03a818c5b.html",
+      "0529_eDM_Full-Agenda 4__acct_20a03a818c5b.eml",
+      "summary.json",
+      "processing.log",
+      "images.zip"
+    ]
+  },
+  "slices": [
+    {
+      "file": "images/001_hero.png",
+      "y_start": 0,
+      "y_end_exclusive": 460,
+      "width": 700,
+      "height": 460,
+      "linked": false,
+      "cta_url": null,
+      "description": "F5 AppWorld Seoul 2026 초대 메인 비주얼",
+      "background_color": "#000000"
+    },
+    {
+      "file": "images/002_invitation.png",
+      "y_start": 460,
+      "y_end_exclusive": 1209,
+      "width": 700,
+      "height": 749,
+      "linked": false,
+      "cta_url": null,
+      "description": "행사 초대 인사와 AI 보안 프로그램 소개",
+      "background_color": "#000000"
+    },
+    {
+      "file": "images/003_cta_register.png",
+      "y_start": 1209,
+      "y_end_exclusive": 1269,
+      "width": 700,
+      "height": 60,
+      "linked": true,
+      "cta_url": "https://www.f5.com/ko_kr/appworld",
+      "description": "지금 등록하세요",
+      "background_color": "#000000"
+    },
+    {
+      "file": "images/004_event_agenda.png",
+      "y_start": 1269,
+      "y_end_exclusive": 1933,
+      "width": 700,
+      "height": 664,
+      "linked": false,
+      "cta_url": null,
+      "description": "행사 안내와 주요 아젠다",
+      "background_color": "#000000"
+    },
+    {
+      "file": "images/005_speakers_closing.png",
+      "y_start": 1933,
+      "y_end_exclusive": 2395,
+      "width": 700,
+      "height": 462,
+      "linked": false,
+      "cta_url": null,
+      "description": "주요 연사와 초대 맺음말",
+      "background_color": "#000000"
+    },
+    {
+      "file": "images/006_early_bird_benefit.png",
+      "y_start": 2395,
+      "y_end_exclusive": 2825,
+      "width": 700,
+      "height": 430,
+      "linked": false,
+      "cta_url": null,
+      "description": "얼리버드 특별 혜택",
+      "background_color": "#ffffff"
+    },
+    {
+      "file": "images/007_appworld_challenge.png",
+      "y_start": 2825,
+      "y_end_exclusive": 3335,
+      "width": 700,
+      "height": 510,
+      "linked": false,
+      "cta_url": null,
+      "description": "AppWorld Challenge 참여 혜택",
+      "background_color": "#ffffff"
+    }
+  ],
+  "cta": {
+    "detected_count": 1,
+    "detected_bounds": [
+      {
+        "x_start": 237,
+        "y_start": 1215,
+        "x_end_exclusive": 463,
+        "y_end_exclusive": 1263
+      }
+    ],
+    "slice_safe_margin_px": {
+      "top": 6,
+      "bottom": 6
+    },
+    "assigned_urls": [
+      {
+        "slice": "images/003_cta_register.png",
+        "url": "https://www.f5.com/ko_kr/appworld"
+      }
+    ],
+    "provided_urls": [
+      "https://www.f5.com/ko_kr/appworld"
+    ],
+    "unlinked_cta_count": 0,
+    "unused_urls": []
+  },
+  "deployment": {
+    "branch": "main",
+    "origin": "https://github.com/YunseoLsj/edm-auto-site",
+    "raw_image_base_url": "https://raw.githubusercontent.com/YunseoLsj/edm-auto-site/main/0529_eDM_Full-Agenda%204__acct_20a03a818c5b/images"
+  },
+  "validation": {
+    "source_copy_sha256_match": true,
+    "slice_files_exist": true,
+    "slice_numbering_continuous": true,
+    "reconstructed_dimensions_match": true,
+    "reconstructed_pixels_identical": true,
+    "local_html_image_paths_exist": true,
+    "deployment_html_raw_urls_valid": true,
+    "cta_link_assignment_matches_analysis": true,
+    "html_has_no_local_absolute_file_or_base64_urls": true,
+    "eml_reparse_success": true,
+    "eml_html_body_matches_deployment_html": true,
+    "eml_x_unsent_is_1": true,
+    "eml_content_transfer_encoding_quoted_printable": true,
+    "images_zip_contains_all_slices": true,
+    "summary_json_valid": true
+  },
+  "created_at": "2026-08-04T04:22:57Z"
+}
