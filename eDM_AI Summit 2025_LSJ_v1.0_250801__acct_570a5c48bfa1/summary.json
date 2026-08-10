@@ -1,0 +1,191 @@
+{
+  "processed_at": "2026-08-10T09:16:28+09:00",
+  "input": {
+    "source_path": "eDM_AI Summit 2025_LSJ_v1.0_250801__acct_570a5c48bfa1.png",
+    "source_extension": ".png",
+    "sha256": "e4b96a76cb64450e668930d28499d987cc0db1637cfd7359314633517db4ce4c",
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 701,
+    "height": 2808
+  },
+  "output": {
+    "target_folder": "eDM_AI Summit 2025_LSJ_v1.0_250801__acct_570a5c48bfa1",
+    "display_width": 701,
+    "source_copy": "source.png",
+    "local_html": "eDM_AI Summit 2025_LSJ_v1.0_250801__acct_570a5c48bfa1_local.html",
+    "deploy_html": "eDM_AI Summit 2025_LSJ_v1.0_250801__acct_570a5c48bfa1.html",
+    "eml": "eDM_AI Summit 2025_LSJ_v1.0_250801__acct_570a5c48bfa1.eml",
+    "images_zip": "images.zip",
+    "slice_count": 9,
+    "files": [
+      "source.png",
+      "eDM_AI Summit 2025_LSJ_v1.0_250801__acct_570a5c48bfa1_local.html",
+      "eDM_AI Summit 2025_LSJ_v1.0_250801__acct_570a5c48bfa1.html",
+      "eDM_AI Summit 2025_LSJ_v1.0_250801__acct_570a5c48bfa1.eml",
+      "images.zip",
+      "summary.json",
+      "processing.log"
+    ]
+  },
+  "repository": {
+    "owner": "LSJ-Global",
+    "name": "edm_auto_site",
+    "branch": "main",
+    "raw_base": "https://raw.githubusercontent.com/LSJ-Global/edm_auto_site/main/"
+  },
+  "analysis": {
+    "dominant_section_colors": [
+      "#100502",
+      "#ffffff"
+    ],
+    "split_boundaries_y": [
+      0,
+      413,
+      971,
+      1038,
+      1480,
+      1940,
+      2463,
+      2530,
+      2608,
+      2808
+    ],
+    "cta_count": 2,
+    "cta_button_color_bounds": [
+      {
+        "x_min": 234,
+        "y_min": 977,
+        "x_max": 466,
+        "y_max": 1031
+      },
+      {
+        "x_min": 234,
+        "y_min": 2469,
+        "x_max": 466,
+        "y_max": 2523
+      }
+    ],
+    "cta_slice_safety_margin_y": [
+      {
+        "top": 6,
+        "bottom": 6
+      },
+      {
+        "top": 6,
+        "bottom": 7
+      }
+    ]
+  },
+  "cta": {
+    "count": 2,
+    "provided_valid_urls": [
+      "https://www.naver.com/"
+    ],
+    "assignments": [
+      {
+        "cta_index": 1,
+        "slice": "003_cta_register_1.png",
+        "url": "https://www.naver.com/",
+        "linked": true
+      },
+      {
+        "cta_index": 2,
+        "slice": "007_cta_register_2.png",
+        "url": null,
+        "linked": false,
+        "reason": "제공된 URL 부족"
+      }
+    ]
+  },
+  "slices": [
+    {
+      "file": "001_header.png",
+      "x": 0,
+      "y": 0,
+      "width": 701,
+      "height": 413,
+      "cta_index": null
+    },
+    {
+      "file": "002_invitation.png",
+      "x": 0,
+      "y": 413,
+      "width": 701,
+      "height": 558,
+      "cta_index": null
+    },
+    {
+      "file": "003_cta_register_1.png",
+      "x": 0,
+      "y": 971,
+      "width": 701,
+      "height": 67,
+      "cta_index": 0
+    },
+    {
+      "file": "004_agenda.png",
+      "x": 0,
+      "y": 1038,
+      "width": 701,
+      "height": 442,
+      "cta_index": null
+    },
+    {
+      "file": "005_gift.png",
+      "x": 0,
+      "y": 1480,
+      "width": 701,
+      "height": 460,
+      "cta_index": null
+    },
+    {
+      "file": "006_location.png",
+      "x": 0,
+      "y": 1940,
+      "width": 701,
+      "height": 523,
+      "cta_index": null
+    },
+    {
+      "file": "007_cta_register_2.png",
+      "x": 0,
+      "y": 2463,
+      "width": 701,
+      "height": 67,
+      "cta_index": 1
+    },
+    {
+      "file": "008_footer_spacing.png",
+      "x": 0,
+      "y": 2530,
+      "width": 701,
+      "height": 78,
+      "cta_index": null
+    },
+    {
+      "file": "009_footer.png",
+      "x": 0,
+      "y": 2608,
+      "width": 701,
+      "height": 200,
+      "cta_index": null
+    }
+  ],
+  "validation": {
+    "source_copy_sha256_matches": true,
+    "slice_files_exist": true,
+    "slice_numbering_continuous": true,
+    "reconstruction_dimensions_match": true,
+    "reconstruction_pixels_match": true,
+    "local_html_image_paths_exist": true,
+    "deploy_html_raw_urls_match_main": true,
+    "cta_assignment_matches_analysis": true,
+    "html_has_no_absolute_local_file_or_embedded_images": true,
+    "eml_reparse_success": true,
+    "eml_html_matches_deploy_html_after_line_ending_normalization": true,
+    "summary_json_valid": true,
+    "required_outputs_exist": true
+  },
+  "validation_passed": true
+}
