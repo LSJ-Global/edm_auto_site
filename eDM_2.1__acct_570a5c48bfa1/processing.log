@@ -1,0 +1,13 @@
+[2026-08-10T09:23:42+09:00] eDM asset generation started
+Input: eDM_2.1__acct_570a5c48bfa1.png (1400x2643, RGB, PNG)
+Input SHA-256: b91f185f41c1c7b5ac4c0ea27dd910c7cd4b3cecb22eeb798b2d3c4c2be50cbe
+Duplicate check: image_name not present in processed.json; generation required
+Visual analysis: one CTA button labeled '참석하기'; dark navy star/firework theme with Busan night view
+CTA URL selection: filename_url absent; selected landing_urls[0] = https://www.naver.com/
+Slice boundaries: 0, 81, 1120, 1700, 1920, 2340, 2643
+CTA estimate: x=338..1062, y=1738..1886; CTA slice y=1700..1920 includes 38px/34px vertical safety margins
+Split rationale: header/background transitions and whitespace between content blocks; full source width retained
+Display width: 700px (source aspect ratio preserved; no enlargement)
+Reconstruction: size=[1400, 2643], pixel-identical=True
+EML: reparsed=True, X-Unsent=1, HTML parts=1
+Verification: PASS

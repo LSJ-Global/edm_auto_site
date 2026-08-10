@@ -1,0 +1,177 @@
+{
+  "image_name": "eDM_2.1__acct_570a5c48bfa1",
+  "processed_at": "2026-08-10T09:23:42+09:00",
+  "input": {
+    "source_path": "eDM_2.1__acct_570a5c48bfa1.png",
+    "preserved_copy": "source.png",
+    "extension": ".png",
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1400,
+    "height": 2643,
+    "sha256": "b91f185f41c1c7b5ac4c0ea27dd910c7cd4b3cecb22eeb798b2d3c4c2be50cbe"
+  },
+  "display_width": 700,
+  "analysis": {
+    "visual_theme": "짙은 남색 밤하늘, 별빛과 불꽃, 부산 광안대교 야경",
+    "cta_count": 1,
+    "cta_labels": [
+      "참석하기"
+    ],
+    "cta_bounds_estimate": {
+      "x": [
+        338,
+        1062
+      ],
+      "y": [
+        1738,
+        1886
+      ]
+    },
+    "cta_slice": {
+      "y": [
+        1700,
+        1920
+      ],
+      "safe_vertical_margin_px": [
+        38,
+        34
+      ]
+    },
+    "split_basis": "상단 헤더 색상 전환, 콘텐츠 블록 사이 여백, CTA 안전 여백, 야경/푸터 배경 전환"
+  },
+  "cta_assignments": [
+    {
+      "order": 1,
+      "label": "참석하기",
+      "slice": "images/004_cta_attend.png",
+      "url": "https://www.naver.com/",
+      "url_source": "landing_urls[0]"
+    }
+  ],
+  "unassigned_ctas": [],
+  "unused_urls": [],
+  "slices": [
+    {
+      "file": "images/001_invitation_header.png",
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 81,
+      "alt": "초대장 헤더",
+      "linked": false,
+      "representative_rgb": [
+        233,
+        235,
+        238
+      ],
+      "sha256": "ce8a9d0641949f3ee1d0cf033d29b28b6ab9ec3cbbf76362dd70ab8cc56530ae"
+    },
+    {
+      "file": "images/002_event_intro.png",
+      "x": 0,
+      "y": 81,
+      "width": 1400,
+      "height": 1039,
+      "alt": "게임인재원 빛나는 여정 2025, 별이 빛나는 밤에 Season 2",
+      "linked": false,
+      "representative_rgb": [
+        23,
+        26,
+        75
+      ],
+      "sha256": "2e082fadc02bf1d1fbea90461315f4ddbc953aa3cec6c1f65137da6af0e2fce4"
+    },
+    {
+      "file": "images/003_event_details.png",
+      "x": 0,
+      "y": 1120,
+      "width": 1400,
+      "height": 580,
+      "alt": "행사 일시와 장소 및 프로그램 안내",
+      "linked": false,
+      "representative_rgb": [
+        17,
+        32,
+        96
+      ],
+      "sha256": "5ac1176f9cb4e53998cdeccb43d40c2dfe14545044b9f7314ce2db658af84173"
+    },
+    {
+      "file": "images/004_cta_attend.png",
+      "x": 0,
+      "y": 1700,
+      "width": 1400,
+      "height": 220,
+      "alt": "참석하기",
+      "linked": true,
+      "representative_rgb": [
+        73,
+        91,
+        144
+      ],
+      "sha256": "b7351aa45978eeafd9e246147bc24fca2fc6afeadee5a18af97fc7047689c518"
+    },
+    {
+      "file": "images/005_busan_night_view.png",
+      "x": 0,
+      "y": 1920,
+      "width": 1400,
+      "height": 420,
+      "alt": "부산 해운대 야경과 광안대교",
+      "linked": false,
+      "representative_rgb": [
+        39,
+        45,
+        97
+      ],
+      "sha256": "bac82c8525d09afaaafd98ad0dbae9ec1b31f2dbc9ee98d63c458efae285a8dc"
+    },
+    {
+      "file": "images/006_contact_footer.png",
+      "x": 0,
+      "y": 2340,
+      "width": 1400,
+      "height": 303,
+      "alt": "문의처와 주최 기관 안내",
+      "linked": false,
+      "representative_rgb": [
+        10,
+        13,
+        34
+      ],
+      "sha256": "5875a5bcbf91817500b4dd3ae98e1e179bf9a94322e63ce6ca7299eca787023f"
+    }
+  ],
+  "outputs": [
+    "source.png",
+    "images/",
+    "eDM_2.1__acct_570a5c48bfa1_local.html",
+    "eDM_2.1__acct_570a5c48bfa1.html",
+    "eDM_2.1__acct_570a5c48bfa1.eml",
+    "summary.json",
+    "processing.log",
+    "images.zip"
+  ],
+  "repository": {
+    "origin": "https://github.com/LSJ-Global/edm_auto_site",
+    "branch": "main",
+    "raw_base": "https://raw.githubusercontent.com/LSJ-Global/edm_auto_site/main"
+  },
+  "verification": {
+    "source_copy_sha256_matches": true,
+    "pieces_exist": true,
+    "piece_numbers_continuous": true,
+    "reconstructed_dimensions_match": true,
+    "reconstructed_pixels_identical": true,
+    "local_html_image_paths_exist": true,
+    "deployment_raw_urls_valid_for_main": true,
+    "cta_count_matches_analysis": true,
+    "cta_url_assignment_matches": true,
+    "html_contains_no_absolute_local_file_base64_paths": true,
+    "eml_reparse_success": true,
+    "eml_x_unsent_present": true,
+    "eml_html_body_present": true,
+    "summary_json_valid": true
+  }
+}
